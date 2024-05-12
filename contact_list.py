@@ -20,7 +20,7 @@ def search_contacts(contacts_data, name):
 
 def main():
     filename = "contacts.json"
-    contacts_data = load_contacts(C:\Users\shwet\OneDrive\Desktop)
+    contacts_data = load_contacts(C:\Users\shwet\OneDrive\Desktop\contact.list.json)
 
     while True:
         search_name = input("Enter name to search for (or type 'quit' to exit): ")
