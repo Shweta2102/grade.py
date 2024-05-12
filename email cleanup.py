@@ -4,7 +4,7 @@ def clean_email_list(input_file, output_file):
         emails = set(file.read().splitlines())
 
 
-    sorted_emails = sorted(C:\Users\shwet\OneDrive\Desktop)
+    sorted_emails = sorted(emails)
 
 
     with open(output_file, 'w') as file:
@@ -14,4 +14,4 @@ def clean_email_list(input_file, output_file):
     print(f"Cleaned email list has been written to {output_file}.")
 
 
-clean_email_list('email.text', 'cleaned_emails.txt')
+clean_email_list('C:\Users\shwet\OneDrive\Desktop\email_list.txt', 'C:\Users\shwet\OneDrive\Desktop\cleaned_email_list.txt')
